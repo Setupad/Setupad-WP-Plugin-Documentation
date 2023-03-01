@@ -1,6 +1,8 @@
 ---
 title: Managing ad placements
 layout: home
+parent: Documentation
+nav_order: 2
 ---
 
 # Managing ad placements
