@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Installation
 layout: home
 ---
 
@@ -27,6 +27,11 @@ There are 3 different ways to install Setupad WordPress plugin:
     * Upload Setupad plugin ZIP file or already extracted ZIP file contents under **/wp-content/plugins/**
     * If you uploaded a ZIP file to the server, extract ZIP file contents.
 
+
+---
+title: Ad insertion
+layout: home
+---
 
 # Ad insertion
 
@@ -269,6 +274,10 @@ When using third-party ad scripts, we  recommend you to ask your partner for ad 
 ![alt_text](images/image26.png "image_tooltip")
 
 
+---
+title: Managing ad placements
+layout: home
+---
 
 # Managing ad placements
 
@@ -296,6 +305,11 @@ Ad placement can be managed in the **My ads** section of the plugin.
 3. Select all ad units you want to delete. Click on **Bulk Actions** dropdown, choose **Delete** and click **Apply**.
    ![alt_text](images/image32.png "image_tooltip")
 
+
+---
+title: Related posts
+layout: home
+---
 
 # Related posts
 
@@ -350,6 +364,10 @@ This is how the related posts section would look like if you selected 2 categori
 ![alt_text](images/image38.png "image_tooltip")
 
 
+---
+title: Ads.txt insertion
+layout: home
+---
 
 # Ads.txt insertion
 
@@ -375,6 +393,10 @@ Our plugin validates your ads.txt lines., If there are any errors, the plugin wi
 
 
 
+---
+title: Header and footer content insertion
+layout: home
+---
 
 # Header and footer content insertion
 
