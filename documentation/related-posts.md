@@ -1,6 +1,8 @@
 ---
 title: Related posts
 layout: home
+parent: Documentation
+nav_order: 3
 ---
 
 # Related posts
