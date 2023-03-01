@@ -1,6 +1,8 @@
 ---
 title: Ad insertion
 layout: home
+parent: Documentation
+nav_order: 1
 ---
 
 # Ad insertion
