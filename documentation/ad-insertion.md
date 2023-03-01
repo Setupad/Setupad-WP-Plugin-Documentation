@@ -36,7 +36,7 @@ In this dropdown selection, you must choose what type of content you want to dis
 Insert your third-party monetization partner's ad code snippet inside this code block.
 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](../images/image3.png "image_tooltip")
 
 
 
@@ -52,7 +52,7 @@ Upload an image from your files. We accept the following formats:
 * GIF
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](../images/image4.png "image_tooltip")
 
 
 
@@ -61,7 +61,7 @@ Upload an image from your files. We accept the following formats:
 In this selection, you must  choose one or multiple WordPress page types in which your ad placement will be inserted, e.g., Post pages and Homepage.
 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](../images/image5.png "image_tooltip")
 
 
 
@@ -70,7 +70,7 @@ In this selection, you must  choose one or multiple WordPress page types in whic
 In this selection, you must choose what type of devices your ad placement will be visible on. You can select a single device, all devices, or a combination of devices, e.g., Desktop and Tablet (excluding mobile).
 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](../images/image6.png "image_tooltip")
 
 
 
@@ -79,7 +79,7 @@ In this selection, you must choose what type of devices your ad placement will b
 In this selection, you must choose if you want to create a wrapper around your ad placement and align your ad. There are already 3 built-in alignment options(left, centered, right). If you choose the custom alignment option, you will have to manually write your own CSS code to align ad placement. All of these styles are inserted in the wrapper's inline CSS.
 
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](../images/image7.png "image_tooltip")
 
 
 
@@ -88,13 +88,13 @@ In this selection, you must choose if you want to create a wrapper around your a
 **Disabled** - Ad placement with this type of position will be disabled/inactive. It won't be displayed anywhere but you will be able to find it in the **My ads** section.
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](../images/image8.png "image_tooltip")
 
 
 **Before post** - Insertion uses inbuilt WordPress **loop_start **hook and inserts ad placements before a WordPress post.
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](../images/image9.png "image_tooltip")
 
 
 **Between posts** - Insertion uses inbuilt WordPress **the_post** hook and inserts ad placements between specified posts (usually used in Category pages). You have two options for placement insertion:
@@ -105,25 +105,25 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Before specific post(s). Divide your post numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these posts).
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](../images/image10.png "image_tooltip")
 
 
 **After post** - Insertion uses inbuilt WordPress **loop_end** hook and inserts ad placements after WordPress post.
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](../images/image11.png "image_tooltip")
 
 
 **Before content** - Insertion uses inbuilt WordPress **the_content** hook and inserts ad placements before WordPress post/page content.
 
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](../images/image12.png "image_tooltip")
 
 
 **After content** - Insertion uses inbuilt WordPress **the_content** hook and inserts ad placements after WordPress post/page content.
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](../images/image13.png "image_tooltip")
 
 
 **Before paragraph** - Insertion uses inbuilt WordPress **the_content** hook and explodes all HTML &lt;p> (paragraph) tags, then inserts ad placement before the corresponding paragraph. You have two options for paragraph insertion:
@@ -134,7 +134,7 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Before specific paragraph(s). Divide your paragraph numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these paragraphs).
 
 
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](../images/image14.png "image_tooltip")
 
 
 **After paragraph** - Insertion uses inbuilt WordPress **the_content** hook, explodes all HTML &lt;p> (paragraph) tags, then inserts ad placement after the corresponding paragraph. You have two options for paragraph insertion:
@@ -145,7 +145,7 @@ In this selection, you must choose if you want to create a wrapper around your a
 * After specific paragraph(s). Divide your paragraph numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted after each of these paragraphs).
 
 
-![alt_text](images/image15.png "image_tooltip")
+![alt_text](../images/image15.png "image_tooltip")
 
 
 **Before image** - Insertion uses inbuilt WordPress **the_content** hook, locates all image starting positions with the help of regex, and then inserts ad placement before the corresponding image. You have two options for image insertion:
@@ -156,7 +156,7 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Before specific image(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](images/image16.png "image_tooltip")
+![alt_text](../images/image16.png "image_tooltip")
 
 
 **After image** - Insertion uses inbuilt WordPress **the_content** hook, locates all image ending positions with the help of regex, and then inserts ad placement after the corresponding image. You have two options for image insertion:
@@ -167,13 +167,13 @@ In this selection, you must choose if you want to create a wrapper around your a
 * After specific image(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](images/image17.png "image_tooltip")
+![alt_text](../images/image17.png "image_tooltip")
 
 
 **Before comments** - Insertion uses inbuilt WordPress **comments_array** hook to count comments and **wp_list_comments_args** hook to insert a custom comment callback, which inserts ad placement before all comments.
 
 
-![alt_text](images/image18.png "image_tooltip")
+![alt_text](../images/image18.png "image_tooltip")
 
 
 **Between comments** - Insertion uses inbuilt WordPress **comments_array** hook to count comments and **wp_list_comments_args** hook to insert a custom comment callback, which inserts ad placement between selected comments. You have two options for placement insertion:
@@ -184,13 +184,13 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Before specific comment(s). Divide your comment numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted after each of these comments).
 
 
-![alt_text](images/image19.png "image_tooltip")
+![alt_text](../images/image19.png "image_tooltip")
 
 
 **After comments** - Insertion uses inbuilt WordPress **comments_array** hook to count comments and **wp_list_comments_args **hook to insert a custom comment callback, which inserts ad placement after all comments.
 
 
-![alt_text](images/image20.png "image_tooltip")
+![alt_text](../images/image20.png "image_tooltip")
 
 
 **Before excerpt** - Insertion uses inbuilt WordPress **the_excerpt** hook to insert ad placement before specified excerpt. You have two options for excerpt insertion:
@@ -201,7 +201,7 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Before specific excerpt(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](images/image21.png "image_tooltip")
+![alt_text](../images/image21.png "image_tooltip")
 
 
 **After excerpt** - Insertion uses inbuilt WordPress **the_excerpt** hook to insert ad placement after specified excerpt. You have two options for excerpt insertion:
@@ -212,25 +212,25 @@ In this selection, you must choose if you want to create a wrapper around your a
 * After specific excerpt(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted after each of these images).
 
 
-![alt_text](images/image22.png "image_tooltip")
+![alt_text](../images/image22.png "image_tooltip")
 
 
 **Footer** - Insertion uses inbuilt WordPress **wp_footer** hook and inserts ad placements right before closing &lt;/body> tag.
 
 
-![alt_text](images/image23.png "image_tooltip")
+![alt_text](../images/image23.png "image_tooltip")
 
 
 **Before sidebar** - Insertion uses inbuilt WordPress **dynamic_sidebar_before** hook and inserts ad placements before dynamic WordPress sidebar.
 
 
-![alt_text](images/image24.png "image_tooltip")
+![alt_text](../images/image24.png "image_tooltip")
 
 
 **After sidebar** - Insertion uses inbuilt WordPress **dynamic_sidebar_after** hook and inserts ad placements after dynamic WordPress sidebar.
 
 
-![alt_text](images/image25.png "image_tooltip")
+![alt_text](../images/image25.png "image_tooltip")
 
 
 
@@ -241,5 +241,5 @@ It is possible to enable lazy loading for ad placements. We use the InView lazy 
 When using third-party ad scripts, we  recommend you to ask your partner for ad placements with predefined lazy loading. Depending on ad script structure and execution logic, some ad scripts might not work properly.
 
 
-![alt_text](images/image26.png "image_tooltip")
+![alt_text](../images/image26.png "image_tooltip")
 
