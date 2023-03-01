@@ -1,6 +1,8 @@
 ---
 title: Ads.txt insertion
 layout: home
+parent: Documentation
+nav_order: 1
 ---
 
 # Ads.txt insertion
