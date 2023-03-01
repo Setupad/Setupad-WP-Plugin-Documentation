@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-#Setupad WordPress Plugin Features
+# Setupad WordPress Plugin Features
 
 * Syntax highlighting editor
 * Insert ad placements (HTML/JS) or images in multiple positions
