@@ -13,7 +13,7 @@ With our plugin, it is possible to insert ad scripts or upload your own images/i
 **Ad title** - Ad placement title field for you to differentiate between multiple ad placements. This field will be visible only in the **My ads** section.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](../images/image1.png "image_tooltip")
 
 
 
@@ -27,7 +27,7 @@ In this dropdown selection, you must choose what type of content you want to dis
 2. Image - your uploaded image from your files (accepted image formats are: JPG/JPEG, PNG, WebP, GIF).
 
 
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](../images/image2.png "image_tooltip")
 
 
 
