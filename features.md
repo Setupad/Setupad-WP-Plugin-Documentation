@@ -1,6 +1,6 @@
 ---
 title: Features
-theme: home
+layout: home
 nav_order: 1
 ---
 
