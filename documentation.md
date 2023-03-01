@@ -1,5 +1,5 @@
 ---
-title: Ad insertion
+title: Documentation
 layout: home
 ---
 
