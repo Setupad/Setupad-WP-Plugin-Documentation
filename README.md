@@ -2,4 +2,4 @@
 
 This is a repository for hosting Setupad WordPress documentation.
 
-Documentation is available [here](https://eldzis.github.io/Setupad-WP-Plugin-Documentation/).
+Documentation is available [here](https://setupad.github.io/Setupad-WP-Plugin-Documentation/).
