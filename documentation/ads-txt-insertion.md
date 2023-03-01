@@ -27,22 +27,3 @@ If you have a subdirectory WordPress installation (e.g., yourDomain.com/subdirec
 
 Our plugin validates your ads.txt lines., If there are any errors, the plugin will display on which ads.txt lines the errors were found. You still can update ads.txt with following errors by enabling **Update ads.txt anyway?** field.
 
-
-
----
-title: Header and footer content insertion
-layout: home
----
-
-# Header and footer content insertion
-
-**Header** - Insertion uses inbuilt WordPress **wp_head** hook and inserts your provided code inside the **&lt;head>** part of your website.
-
-
-![alt_text](../images/image40.png "image_tooltip")
-
-
-**Footer** - Insertion uses inbuilt WordPress **wp_footer** hook and inserts your provided code right after the **&lt;footer>** part of your website.
-
-
-![alt_text](../images/image41.png "image_tooltip")
