@@ -22,9 +22,11 @@ There are 3 different ways to install Setupad WordPress plugin:
     * Click **Add New**
     * Click **Upload Plugin**
     * Upload Setupad plugin ZIP file
+    * Activate the plugin
 3. Upload Setupad plugin ZIP file using FTP/SFTP:
     * Download Setupad plugin ZIP file from WordPress plugin store
     * Connect to your FTP/SFTP
     * Upload Setupad plugin ZIP file or already extracted ZIP file contents under **/wp-content/plugins/**
     * If you uploaded a ZIP file to the server, extract ZIP file contents.
+    * Activate the plugin
 
