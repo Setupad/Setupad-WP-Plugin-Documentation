@@ -46,7 +46,7 @@ This switch enables titles for each of your chosen categories. Category titles a
 
 ![alt_text](../images/image-related-p-cat-title.png "image_tooltip")
 
-![alt_text](../images/image-related-p-title-example.png "image_tooltip")
+![alt_text](../images/image-related-p-cat-title-example.png "image_tooltip")
 
 
 ## Post count per category selection:
