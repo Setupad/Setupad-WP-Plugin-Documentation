@@ -21,7 +21,7 @@ This enables a related posts section on your website,you need to also fill other
 
 ## Related posts title:
 
-In this field you can write your own related posts block title, if you leave it empty then your related posts block will have no title.
+In this field you can write your own related posts block title, if you leave it empty then your related posts block will not have a title.
 
 ![alt_text](../images/image-related-p-title.png "image_tooltip")
 
