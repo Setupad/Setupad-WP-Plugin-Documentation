@@ -19,6 +19,13 @@ This enables a related posts section on your website,you need to also fill other
 
 ![alt_text](../images/image33.png "image_tooltip")
 
+## Related posts title:
+
+In this field you can write your own related posts block title, if you leave it empty then your related posts block will have no title.
+
+![alt_text](../images/image-related-p-title.png "image_tooltip")
+
+![alt_text](../images/image-related-p-title-example.png "image_tooltip")
 
 
 ## Category selection:
@@ -30,9 +37,16 @@ All categories shown in the dropdown menu are in your WordPress categories **(Po
 
 ![alt_text](../images/image34.png "image_tooltip")
 
-
 ![alt_text](../images/image35.png "image_tooltip")
 
+
+## Show category titles:
+
+This switch enables titles for each of your chosen categories. Category titles are automatically generated from your existing categories.
+
+![alt_text](../images/image-related-p-cat-title.png "image_tooltip")
+
+![alt_text](../images/image-related-p-title-example.png "image_tooltip")
 
 
 ## Post count per category selection:
