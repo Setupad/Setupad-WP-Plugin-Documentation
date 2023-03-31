@@ -56,12 +56,15 @@ Upload an image from your files. We accept the following formats:
 
 ![alt_text](../images/image4.png "image_tooltip")
 
+## Shortcode (3):
 
+Insert any active shortcode (e.g., \[setupad num=”7”]). Shortcode insertion uses inbuilt WordPress do_action() function to parse the shortcode.
+
+![alt_text](../images/image-shortcode-input.png "image_tooltip")
 
 ## Page insertion:
 
 In this selection, you must  choose one or multiple WordPress page types in which your ad placement will be inserted, e.g., Post pages and Homepage.
-
 
 ![alt_text](../images/image5.png "image_tooltip")
 
