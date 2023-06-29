@@ -30,6 +30,6 @@ Ad placement can be managed in the **My ads** section of the plugin.
 1. Clicking on the trash icon in the **My ads** section.
    ![alt_text](../images/image-delete-ad.png "image_tooltip")
 2. Clicking on the **Delete ad unit** button when editing existing ad placement.
-   ![alt_text](../images/image31.png "image_tooltip")
+   ![alt_text](../images/image-delete-ad-2.png "image_tooltip")
 3. Select all ad units you want to delete. Click on **Bulk Actions** dropdown, choose **Delete** and click **Apply**.
    ![alt_text](../images/image-delete-ad-3.png "image_tooltip")
