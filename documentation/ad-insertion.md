@@ -42,7 +42,7 @@ Insert your third-party monetization partner's ad code snippet inside this code 
 
 
 
-## Upload image (2):
+## Image (2):
 
 Upload an image from your files. We accept the following formats:
 
@@ -56,6 +56,14 @@ Upload an image from your files. We accept the following formats:
 
 ![alt_text](../images/image4.png "image_tooltip")
 
+**Image dimensions** - sets defined **width** and **height** in pixels for the <img> element of your inserted picture. Empty fields will not set any fixed dimensions.
+
+![alt_text](../images/image-img-dimensions.png "image_tooltip")
+
+**Image alt text** - will add entered value to the alt attribute of the <img> element of your inserted image with the text that has been saved in the field. An empty field will not add any value to the alt attribute of the image.
+
+![alt_text](../images/image-img-alt.png "image_tooltip")
+
 ## Shortcode (3):
 
 Insert any active shortcode (e.g., \[setupad num=”7”]). Shortcode insertion uses inbuilt WordPress do_action() function to parse the shortcode.
@@ -64,9 +72,9 @@ Insert any active shortcode (e.g., \[setupad num=”7”]). Shortcode insertion 
 
 ## Page insertion:
 
-In this selection, you must  choose one or multiple WordPress page types in which your ad placement will be inserted, e.g., Post pages and Homepage.
+In this selection, you must  choose one or multiple WordPress page types in which your ad placement will be inserted, e.g., Post pages and Homepage. By default Post pages will be selected.
 
-![alt_text](../images/image5.png "image_tooltip")
+![alt_text](../images/image-page-selection.png "image_tooltip")
 
 
 
@@ -75,7 +83,7 @@ In this selection, you must  choose one or multiple WordPress page types in whic
 In this selection, you must choose what type of devices your ad placement will be visible on. You can select a single device, all devices, or a combination of devices, e.g., Desktop and Tablet (excluding mobile).
 
 
-![alt_text](../images/image6.png "image_tooltip")
+![alt_text](../images/image-device-selection.png "image_tooltip")
 
 
 
@@ -106,11 +114,11 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 
 
-* Between every nth post (This ad placement will be inserted incrementally. If you choose to insert ad placement before every 2nd post, the ad will be inserted before 2, 4, 6, 8,etc. post).
-* Before specific post(s). Divide your post numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these posts).
+* Between every nth post starting from the nth post (This ad placement will be inserted incrementally. It will be inserted only starting from the specified post and every nth post after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth post. If you choose to insert ad placement before every 2nd post starting from 3rd post, the ad will be inserted before 3, 5, 7, 9,etc. post).
+* Between specific post(s). Divide your post numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these posts).
 
 
-![alt_text](../images/image10.png "image_tooltip")
+![alt_text](../images/image-between-posts.png "image_tooltip")
 
 
 **After post** - Insertion uses inbuilt WordPress **loop_end** hook and inserts ad placements after WordPress post.
@@ -135,44 +143,44 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 
 
-* Before every nth paragraph (This ad placement will be inserted incrementally. If you choose to insert ad placement before every 2nd paragraph, the ad will be inserted before 2, 4, 6, 8,etc. paragraph).
+* Before every nth paragraph starting from nth paragraph (This ad placement will be inserted incrementally. It will be inserted only starting from the specified paragraph and every nth paragraph after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth paragraph. If you choose to insert ad placement before every 2nd paragraph starting from 3rd paragraph, the ad will be inserted before 3, 5, 7, 9,etc. paragraphs).
 * Before specific paragraph(s). Divide your paragraph numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these paragraphs).
 
 
-![alt_text](../images/image14.png "image_tooltip")
+![alt_text](../images/image-before-p.png "image_tooltip")
 
 
 **After paragraph** - Insertion uses inbuilt WordPress **the_content** hook, explodes all HTML &lt;p> (paragraph) tags, then inserts ad placement after the corresponding paragraph. You have two options for paragraph insertion:
 
 
 
-* After every nth paragraph (This ad placement will be inserted incrementally. If you choose to insert ad placement after every 2nd paragraph, the ad will be inserted after 2, 4, 6, 8, etc. paragraph).
+* After every nth paragraph starting from nth paragraph (This ad placement will be inserted incrementally. It will be inserted only starting from the specified paragraph and every nth paragraph after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth paragraph. If you choose to insert ad placement after every 2nd paragraph starting from 3rd paragraph, the ad will be inserted after 3, 5, 7, 9,etc. paragraphs).
 * After specific paragraph(s). Divide your paragraph numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted after each of these paragraphs).
 
 
-![alt_text](../images/image15.png "image_tooltip")
+![alt_text](../images/image-after-p.png "image_tooltip")
 
 
 **Before image** - Insertion uses inbuilt WordPress **the_content** hook, locates all image starting positions with the help of regex, and then inserts ad placement before the corresponding image. You have two options for image insertion:
 
 
 
-* Before every nth image (This ad placement will be inserted incrementally. If you choose to insert ad placement before every 2nd image, the ad will be inserted before 2, 4, 6, 8, etc. image).
+* Before every nth image (This ad placement will be inserted incrementally. It will be inserted only starting from the specified image and every nth image after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth image. If you choose to insert ad placement before every 2nd image starting from the 3rd image, the ad will be inserted before 3, 5, 7, 9,etc. images).
 * Before specific image(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](../images/image16.png "image_tooltip")
+![alt_text](../images/image-before-img.png "image_tooltip")
 
 
 **After image** - Insertion uses inbuilt WordPress **the_content** hook, locates all image ending positions with the help of regex, and then inserts ad placement after the corresponding image. You have two options for image insertion:
 
 
 
-* After every nth image (This ad placement will be inserted incrementally. If you choose to insert ad placement after every 2nd image, the ad will be inserted after 2, 4, 6, 8, etc. image).
+* After every nth image (This ad placement will be inserted incrementally. It will be inserted only starting from the specified image and every nth image after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth image. If you choose to insert ad placement after every 2nd image starting from the 3rd image, the ad will be inserted after 3, 5, 7, 9,etc. images).
 * After specific image(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](../images/image17.png "image_tooltip")
+![alt_text](../images/image-after-img.png "image_tooltip")
 
 
 **Before comments** - Insertion uses inbuilt WordPress **comments_array** hook to count comments and **wp_list_comments_args** hook to insert a custom comment callback, which inserts ad placement before all comments.
@@ -185,11 +193,11 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 
 
-* Between every comment (This ad placement will be inserted incrementally. If you choose to insert ad placement between every 2nd comment, the ad will be inserted after 2, 4, 6, 8, etc. comment).
-* Before specific comment(s). Divide your comment numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted after each of these comments).
+* Between every comment (This ad placement will be inserted incrementally. It will be inserted only starting from the specified comment and every nth comment after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth comment. If you choose to insert ad placement between every 2nd comment starting from the 3rd comment, the ad will be inserted after 3, 5, 7, 9,etc. comments).
+* Between specific comment(s). Divide your comment numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted after each of these comments).
 
 
-![alt_text](../images/image19.png "image_tooltip")
+![alt_text](../images/image-between-comments.png "image_tooltip")
 
 
 **After comments** - Insertion uses inbuilt WordPress **comments_array** hook to count comments and **wp_list_comments_args **hook to insert a custom comment callback, which inserts ad placement after all comments.
@@ -202,22 +210,22 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 
 
-* Before every nth excerpt (This ad placement will be inserted incrementally. If you choose to insert ad placement before every 2nd excerpt, the ad will be inserted before 2, 4, 6, 8, etc. excerpt).
+* Before every nth excerpt (This ad placement will be inserted incrementally. It will be inserted only starting from the specified excerpt and every nth excerpt after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth excerpt. If you choose to insert ad placement before every 2nd excerpt starting from the 3rd excerpt, the ad will be inserted before 3, 5, 7, 9,etc. excerpts).
 * Before specific excerpt(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted before each of these images).
 
 
-![alt_text](../images/image21.png "image_tooltip")
+![alt_text](../images/image-before-excerpt.png "image_tooltip")
 
 
 **After excerpt** - Insertion uses inbuilt WordPress **the_excerpt** hook to insert ad placement after specified excerpt. You have two options for excerpt insertion:
 
 
 
-* After every nth excerpt (This ad placement will be inserted incrementally. If you choose to insert ad placement after every 2nd excerpt, the ad will be inserted before 2, 4, 6, 8, etc. excerpt).
+* After every nth excerpt (This ad placement will be inserted incrementally.  It will be inserted only starting from the specified excerpt and every nth excerpt after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth excerpt. If you choose to insert ad placement after every 2nd excerpt starting from the 3rd excerpt, the ad will be inserted after 3, 5, 7, 9,etc. excerpts).
 * After specific excerpt(s). Divide your image numbers with commas - 1, 3, 7, 9, 15, etc. (ad placement will be inserted after each of these images).
 
 
-![alt_text](../images/image22.png "image_tooltip")
+![alt_text](../images/image-after-excerpt.png "image_tooltip")
 
 
 **Footer** - Insertion uses inbuilt WordPress **wp_footer** hook and inserts ad placements right before closing &lt;/body> tag.
@@ -239,12 +247,24 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 
 
-## Lazy loading:
+## Advanced options:
+
+There are multiple advanced options that you can apply to the specified ad placement before insertion. To see these options, click “Show advanced options” and a dropdown menu of available options will appear.
+
+![alt_text](../images/image-advanced-options.png "image_tooltip")
+
+## URL exclusions (1):
+
+There is an option to exclude URLs where you don't want the ad placement to be inserted. To exclude multiple URLs, separate them with commas. It is also possible to use a wildcard where the ad placement will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude ad placement insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
+
+![alt_text](../images/image-url-exclusions.png "image_tooltip")
+
+## Lazy loading (2):
 
 It is possible to enable lazy loading for ad placements. We use the InView lazy loading library to do it. When lazy loading is enabled, we divide pure HTML from Javascript using PHP HTML parser. When your ad placement is in view, we create a respective HTML element and then execute your JavaScript.
 
 When using third-party ad scripts, we  recommend you to ask your partner for ad placements with predefined lazy loading. Depending on ad script structure and execution logic, some ad scripts might not work properly.
 
 
-![alt_text](../images/image26.png "image_tooltip")
+![alt_text](../images/image-lazy-loading.png "image_tooltip")
 
