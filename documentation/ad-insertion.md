@@ -26,7 +26,9 @@ In this dropdown selection, you must choose what type of content you want to dis
 
 
 1. Ad code - HTML and/or JavaScript code snippet usually provided by the third-party monetization platforms.
-2. Image - your uploaded image from your files (accepted image formats are: JPG/JPEG, PNG, WebP, GIF).
+2. Double banner - Two HTML and/or Javascript code snippets usually provided by the third-party monetization platforms to be inserted next to or above each other.
+3. Image - your uploaded image from your files (accepted image formats are: JPG/JPEG, PNG, WebP, GIF).
+4. Shortcode - an active shortcode on your website.
 
 
 ![alt_text](../images/image2.png "image_tooltip")
@@ -42,7 +44,15 @@ Insert your third-party monetization partner's ad code snippet inside this code 
 
 
 
-## Image (2):
+## Double banner (2):
+
+Insert your third-party monetization partner's ad code snippets inside the first and second code blocks.
+
+![alt_text](../images/image-double-banner-inputs.png "image_tooltip")
+
+
+
+## Image (3):
 
 Upload an image from your files. We accept the following formats:
 
@@ -55,6 +65,12 @@ Upload an image from your files. We accept the following formats:
 
 
 ![alt_text](../images/image4.png "image_tooltip")
+
+
+## Shortcode (4):
+
+Insert any active shortcode (e.g., \[setupad num=”7”]). Shortcode insertion uses inbuilt WordPress do_action() function to parse the shortcode.
+
 
 **Image dimensions** - sets defined **width** and **height** in pixels for the <img> element of your inserted picture. Empty fields will not set any fixed dimensions.
 
@@ -253,18 +269,33 @@ There are multiple advanced options that you can apply to the specified ad place
 
 ![alt_text](../images/image-advanced-options.png "image_tooltip")
 
-## URL exclusions (1):
-
-There is an option to exclude URLs where you don't want the ad placement to be inserted. To exclude multiple URLs, separate them with commas. It is also possible to use a wildcard where the ad placement will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude ad placement insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
-
-![alt_text](../images/image-url-exclusions.png "image_tooltip")
-
-## Lazy loading (2):
+## Lazy loading (1):
 
 It is possible to enable lazy loading for ad placements. We use the InView lazy loading library to do it. When lazy loading is enabled, we divide pure HTML from Javascript using PHP HTML parser. When your ad placement is in view, we create a respective HTML element and then execute your JavaScript.
 
 When using third-party ad scripts, we  recommend you to ask your partner for ad placements with predefined lazy loading. Depending on ad script structure and execution logic, some ad scripts might not work properly.
 
-
 ![alt_text](../images/image-lazy-loading.png "image_tooltip")
+
+## URL blacklist and whitelist (2):
+
+There is an option to blacklist (exclude) and whitelist (include) URLs where you want or don't want the ad placement to be inserted.
+
+It is also possible to use a wildcard where the ad placement will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude ad placement insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
+
+To blacklist or whitelist URLs, you must add them to the respective URL list. 
+
+To blacklist a URL, enter the URL in the “URL Blacklist” field and then press “Add”.
+![alt_text](../images/image-blacklist-add.png "image_tooltip")
+
+To whitelist a URL, enter the URL in the “URL Whitelist” field and then press “Add”.
+![alt_text](../images/image-whitelist-add.png "image_tooltip")
+
+Only a single URL can be added at a time, if there is a wrong input, an error message will appear.
+
+To remove a URL from your blacklist/whitelist click the delete icon next to the respective URL.
+![alt_text](../images/image-blacklist-delete.png "image_tooltip")
+![alt_text](../images/image-whitelist-delete.png "image_tooltip")
+
+URL list is only saved when you save the ad unit, so make sure to save the ad unit after you are finished editing your whitelisted and blacklisted URLs.
 
