@@ -197,6 +197,8 @@ When using third-party ad scripts, we  recommend you to ask your partner for ad 
 
 There is an option to blacklist (exclude) and whitelist (include) URLs where you want or don't want the ad placement to be inserted.
 
+Whitelist is a higher priority than a blacklist. If you whitelist an ad placement on a specific URL it will be shown only on that particular URL and blacklist will be ignored.
+
 It is also possible to use a wildcard where the ad placement will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude ad placement insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
 
 To blacklist or whitelist URLs, you must add them to the respective URL list. 
