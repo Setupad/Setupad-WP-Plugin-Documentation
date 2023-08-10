@@ -7,7 +7,7 @@ nav_order: 4
 
 # Related posts
 
-Related posts, or related articles block, automatically suggests top recommended articles to the user. Most of the time, it’s placed at the end of the article. It’s used to increase user engagement with the website and generate traffic to other articles within your site (more pageviews).
+Related posts, or related articles block, automatically suggests top recommended articles to the user. Most of the time, it is placed at the end of the article. It’s used to increase user engagement with the website and generate traffic to other articles within your site (more pageviews).
 
 Related posts section uses inbuilt WordPress **the_content** hook to insert related posts after your post's main content.
 
