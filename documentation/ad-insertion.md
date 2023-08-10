@@ -83,7 +83,7 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 ## Insertion positions:
 
-**Disabled** - Ad placement with this type of position will be disabled/inactive. It won't be displayed anywhere but you will be able to find it in the **My ads** section.
+**Disabled** - Ad placement with this type of position will be disabled/inactive. It will not be displayed anywhere but you will be able to find it in the **My ads** section.
 
 ![alt_text](../images/image8.png "image_tooltip")
 
@@ -195,7 +195,7 @@ When using third-party ad scripts, we  recommend you to ask your partner for ad 
 
 ## URL blacklist and whitelist (2):
 
-There is an option to blacklist (exclude) and whitelist (include) URLs where you want or don't want the ad placement to be inserted.
+There is an option to blacklist (exclude) and whitelist (include) URLs where you want or do not want the ad placement to be inserted.
 
 Whitelist is a higher priority than a blacklist. If you whitelist an ad placement on a specific URL it will be shown only on that particular URL and blacklist will be ignored.
 
