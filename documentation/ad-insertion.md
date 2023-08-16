@@ -179,6 +179,27 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 ![alt_text](../images/image25.png "image_tooltip")
 
+**Before list** - Insertion uses inbuilt WordPress the_content hook and explodes all HTML <ol> (ordered list), <ul> (unordered list) and <dl> (description list) tags in content, then inserts ad placement before the corresponding list. You have two options for list insertion:
+
+* Before every nth list starting from nth list (This ad placement will be inserted incrementally. It will be inserted only starting from the specified list and every nth list after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth list. If you choose to insert ad placement before every 2nd list starting from the 3rd list, the ad will be inserted before 3, 5, 7, 9,etc. lists).
+* Before specific list(s). Divide your list numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted before each of these lists).
+
+![alt_text](../images/image-before-list.png "image_tooltip")
+
+**Between list items** - Insertion uses inbuilt WordPress the_content hook and explodes all HTML <li> (list item), <dt> (description term) and <dd> (description definition) tags in content, then inserts ad placement between the corresponding list items. You have two options for list item insertion:
+
+* Between every nth list item starting from nth list item (This ad placement will be inserted incrementally. It will be inserted only starting from the specified list item and every nth list item after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth list item. If you choose to insert ad placement between every 2nd list item starting from the 3rd list item, the ad will be inserted between 3, 5, 7, 9,etc. list items).
+* Between specific list item(s). Divide your list item numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted between each of these list items).
+
+![alt_text](../images/image-between-list.png "image_tooltip")
+
+**After list** - Insertion uses inbuilt WordPress the_content hook and explodes all HTML <ol> (ordered list), <ul> (unordered list) and <dl> (description list) tags in content, then inserts ad placement after the corresponding list. You have two options for list insertion:
+
+* After every nth list starting from nth list (This ad placement will be inserted incrementally. It will be inserted only starting from the specified list and every nth list after that as specified in the previous field. Default starting position is empty and will start insertion from the previously specified nth list. If you choose to insert ad placement after every 2nd list starting from the 3rd list, the ad will be inserted after 3, 5, 7, 9,etc. lists).
+* After specific list(s). Divide your list numbers with commas - 1, 3, 7, 9, 15, etc. (the ad placement will be inserted after each of these lists).
+
+![alt_text](../images/image-after-list.png "image_tooltip")
+
 ## Advanced options:
 
 There are multiple advanced options that you can apply to the specified ad placement before insertion. To see these options, click “Show advanced options” and a dropdown menu of available options will appear.
