@@ -57,6 +57,21 @@ In this selection, you must choose how many posts you want to display per each c
 ![alt_text](../images/image36.png "image_tooltip")
 
 
+## Post title character limit:
+
+In this field you can set a custom character limit for your post titles in the related posts block. The default value is 35. For example, if character limit is 35, the plugin will modify the post title to be cut to the last word that didn't exceed the 35 character limit and add “...” to the end of it.
+
+
+![alt_text](../images/r-p-title-char-limit.png "image_tooltip")
+
+
+## Post title alignment selection:
+
+In this selection you can select one of the title alignment options to specify how your post titles will be aligned in the related posts block. The default selection is centered.
+
+
+![alt_text](../images/r-p-title-alignment.png "image_tooltip")
+
 
 ## Insert ads between categories:
 
@@ -64,6 +79,14 @@ This switch enables you to insert ads between every category section that you ha
 
 
 ![alt_text](../images/image37.png "image_tooltip")
+
+
+## Thumbnail dimensions:
+
+These sliders allow you to modify the dimensions of the thumbnails that the related posts will have. The default dimensions are 350px width and 250px height.
+
+
+![alt_text](../images/r-p-thumbnail-dimensions.png "image_tooltip")
 
 ## Related posts preview:
 
