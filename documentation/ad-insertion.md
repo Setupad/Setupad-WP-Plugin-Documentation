@@ -219,9 +219,9 @@ In this selection, you must choose if you want to create a wrapper around your a
 * Inside every nth found element starting from the nth found element (This ad placement will be inserted inside every found specified element. Default starting position is empty and will start insertion from the first found element. If you choose to insert ad placement starting from 2, then it will insert your ad placement starting from the second found element onwards. If you wish to make another conditional like every 2nd element, then you should use specific CSS pseudo selectors like :nth-of-type(2n), etc. added to your selector). 
 * Inside a specific element. Enter your selector to the element and the plugin will insert your ad placement inside the first found specified element on your page.
 For this ad placement you have the option to choose what action should be performed when inserting ad placement inside the specified element:
-** **Prepend** - This is the default option and it will prepend your ad placement inside the specified element.
-** **Append** - This option will append the ad placement to the specified element.
-** **Replace** - This option will replace the contents of the specified element with your ad placement.
+    * **Prepend** - This is the default option and it will prepend your ad placement inside the specified element.
+    * **Append** - This option will append the ad placement to the specified element.
+    * **Replace** - This option will replace the contents of the specified element with your ad placement.
 
 ![alt_text](../images/inside-html.png "image_tooltip")
 
