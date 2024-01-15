@@ -118,7 +118,7 @@ By clicking on the **Preview** button a pop up will appear displaying a preview 
 
 The preview displays how the related articles block will look with the parameters you have set in all the previous fields. To preview related articles it is not necessary to save the fields or enable the related articles block insertion. If you have enabled ad insertion, a placeholder ad block with dimensions 728x90 for desktop and 300x250 for mobile will also appear in the preview - this does not reflect your actual ad code being inserted and size/layout may differ depending on your ad placement and content layout.
 
-![alt_text](../images/image-related-preview.png)
+![alt_text](../images/r-p-preview.png)
 
 This is how the related posts section would look like if you selected 2 categories (cars, popular), 4 posts per category, and a 728x90 third-party ad script. 
 
