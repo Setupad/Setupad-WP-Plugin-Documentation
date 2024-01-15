@@ -71,7 +71,7 @@ In this selection you can select one of the title alignment options to specify h
 
 ## Insert ads between categories:
 
-This switch enables you to insert ads between every category section that you have selected previously. After this field is enabled, the Ad placement dropdown field will be shown and you will have to select one of your previously created **ad placements** there. If you enable related posts ad placement it will not matter if this ad placement is disabled or if it is targeted to be displayed in post pages or only homepage, the placement will be displayed between related post categories regardless. Other options, for example, device targeting, alignment still will be available.
+This switch enables you to insert ads between every category section that you have selected previously. After this field is enabled, the Ad placement dropdown field will be shown and you will have to select one of your previously created **ad placements** there. If you enable related posts ad placement it will not matter if this ad placement is disabled or if it is targeted to be displayed in post pages or only homepage, the placement will be displayed between related post categories regardless. Other options, for example, device targeting, alignment will still be available.
 
 ![alt_text](../images/r-p-ads.png)
 
