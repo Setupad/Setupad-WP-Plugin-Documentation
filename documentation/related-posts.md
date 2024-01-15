@@ -87,7 +87,7 @@ These sliders allow you to modify the dimensions of the thumbnails that the rela
 
 There are multiple advanced options that you can apply to the specified ad placement before insertion. To see these options, click “Show advanced options” and a dropdown menu of available options will appear.
 
-**URL blacklist and whitelist (1):**
+## URL blacklist and whitelist (1):
 There is an option to blacklist (exclude) and whitelist (include) URLs where you want or don't want related posts to be inserted.
 
 It is also possible to use a wildcard where related posts will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude related post insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
