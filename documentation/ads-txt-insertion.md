@@ -19,7 +19,7 @@ Our plugin will not insert ads.txt into your website if you already have ads.txt
 If you have a subdirectory WordPress installation (e.g., yourDomain.com/subdirectory/WPInstallation), then you will not be allowed to save ads.txt lines. Make sure you have a root domain WordPress installation.
 
 
-![alt_text](../images/image39.png "image_tooltip")
+![alt_text](../images/image39.png)
 
 
 
