@@ -83,10 +83,6 @@ In this selection, you must choose if you want to create a wrapper around your a
 
 ## Insertion positions:
 
-**Disabled** - Ad placement with this type of position will be disabled/inactive. It will not be displayed anywhere but you will be able to find it in the **My ads** section.
-
-![alt_text](../images/image8.png "image_tooltip")
-
 **Before post** - Insertion uses inbuilt WordPress **loop_start **hook and inserts ad placements before a WordPress post.
 
 ![alt_text](../images/image9.png "image_tooltip")
