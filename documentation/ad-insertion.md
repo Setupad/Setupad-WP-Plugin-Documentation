@@ -282,3 +282,16 @@ For **image** ad placement there are two extra editable attributes under advance
    * unsafe-url
 
 ![alt_text](../images/advanced-img-attributes.png)
+
+## Insertion delay and wait for element (4):
+
+For HTML insertions (**Before HTML**, **After HTML** and **Inside HTML**), that use JavaScript/jQuery, there are two additional options for handling how the ad placement will be inserted:
+
+* **Insertion delay (ms)** - This option will add a specified timeout in miliseconds to the ad placement before inserting it, in cases where instant insertion might not be possible. By default this field is empty and  if the value 0 is set, the timeout will not be added. Maximum value of this field is 100000 (100 seconds).
+
+![alt_text](../images/insertion-delay-ms.png)
+
+* **Wait for element** - This option will wait for the specified element to be present on the insertion page before executing ad placement HTML insertion. Mutation observer is used here and whenever there is a new element added to the document, the observer checks for presence of the element. When the element is found, the observer is disconnected and the ad placement insertion proceeds. Provide jQuery selectors, for example, classes or IDs (#myElementId or .elementParentClass>.elementClass).
+
+![alt_text](../images/insertion-delay-wait-for-element.png)
+
