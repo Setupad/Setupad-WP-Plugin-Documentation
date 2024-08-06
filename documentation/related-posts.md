@@ -48,6 +48,20 @@ All categories shown in the dropdown menu are in your WordPress categories **(Po
 ![alt_text](../images/image35.png)
 
 
+## Post row count per category selection:
+
+In this selection, you must choose how many rows of posts you want to display per each category, e.g., 1, 2, 3, etc.
+
+![alt_text](../images/rp-post-row-count.png)
+
+
+## Column selection:
+
+In this selection you must choose how many columns of posts you want to display in your related posts. The options range from 1 to 4 columns.
+
+![alt_text](../images/rp-column-selection.png)
+
+
 ## Post count per category selection:
 
 In this selection, you must choose how many posts you want to display per each category, e.g., 2, 4, 6, etc.
@@ -78,16 +92,27 @@ This switch enables you to insert ads between every category section that you ha
 
 ## Thumbnail dimensions:
 
-These sliders allow you to modify the dimensions of the thumbnails that the related posts will have. The default dimensions are 350px width and 250px height.
+These sliders allow you to modify the dimensions of the thumbnails that the related posts will have. The default dimensions are 100% width and 56% height (16:9 aspect ratio).
 
-![alt_text](../images/r-p-thumbnail-dimensions.png)
+![alt_text](../images/rp-thumb-dimensions.png)
 
 
 ## Advanced options:
 
 There are multiple advanced options that you can apply to the specified ad placement before insertion. To see these options, click “Show advanced options” and a dropdown menu of available options will appear.
 
-## URL blacklist and whitelist (1):
+## Separate mobile settings (1):
+
+After enabling this checkbox option, a new navigation bar on the top of the page will appear allowing you to switch between Desktop and Mobile related posts settings.
+
+![alt_text](../images/rp-mobile-desktop-checkbox.png)
+
+When navigating to the Mobile section, you can customize the related posts for mobile users. All the options are the same as for desktop, however when browsing related posts  from mobile, these settings will now take place instead of default desktop settings.
+
+![alt_text](../images/rp-mobile-desktop-showcase.png)
+
+
+## URL blacklist and whitelist (2):
 There is an option to blacklist (exclude) and whitelist (include) URLs where you want or don't want related posts to be inserted.
 
 It is also possible to use a wildcard where related posts will be excluded from any url that follows the format of the wildcard URL, e.g. /archives/* (It will exclude related post insertion for all archive URLs /archives/posts, /archives/posts/this-is-my-post, etc.).
@@ -112,11 +137,15 @@ URL list is only saved when you save the ad unit, so make sure to save related p
 
 ## Related posts preview:
 
-By clicking on the **Preview** button a pop up will appear displaying a preview of your related articles.
+By clicking on the **Preview** desktop button a pop up will appear displaying a preview of your desktop related articles.
 
-![alt_text](../images/r-p-preview.png)
+![alt_text](../images/rp-desktop-preview.png)
 
-The preview displays how the related articles block will look with the parameters you have set in all the previous fields. To preview related articles it is not necessary to save the fields or enable the related articles block insertion. If you have enabled ad insertion, a placeholder ad block with dimensions 728x90 for desktop and 300x250 for mobile will also appear in the preview - this does not reflect your actual ad code being inserted and size/layout may differ depending on your ad placement and content layout.
+By clicking on the **Preview mobile** button a pop up will appear displaying a preview of your mobile related articles.
+
+![alt_text](../images/rp-mobile-preview.png)
+
+The preview displays how the related articles block will look with the parameters you have set in all the previous fields for desktop or mobile related posts. To preview related articles it is not necessary to save the fields or enable the related articles block insertion. If you have enabled ad insertion, a placeholder ad block with dimensions 728x90 for desktop and 300x250 for mobile will also appear in the preview - this does not reflect your actual ad code being inserted and size/layout may differ depending on your ad placement and content layout.
 
 ![alt_text](../images/image-related-preview.png)
 
